@@ -22,7 +22,7 @@ public class MovementController : MonoBehaviour
         // Если direction == 0, используем последнее направление
         float flipDir = direction != 0 ? direction : lastDirection;
         spriteRenderer.flipX = flipDir < 0;
-        firePoint.localPosition = new Vector2(flipDir > 0 ? 0.3f : -0.3f, firePoint.localPosition.y);
+        firePoint.localPosition = new Vector2(flipDir > 0 ? 0.43f : -0.17f, firePoint.localPosition.y);
         shieldPoint.localPosition = new Vector2(flipDir > 0 ? 0.3f : -0.3f, shieldPoint.localPosition.y);
     }
 

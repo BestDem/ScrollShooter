@@ -12,12 +12,7 @@ public class ShootController : MonoBehaviour
     [SerializeField] private Bullet bullet;
     [SerializeField] private ShieldActivation shield;
     [SerializeField] private BulletCounter bulletCounter;
-    private Animator animator;
-
-    private void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
+    [SerializeField] private Animator animatorFire;
 
 
     public void Shoot()
@@ -25,6 +20,7 @@ public class ShootController : MonoBehaviour
         if (shield.CanShoot && bulletCounter.CanShootPlayer)
         {
             AnimationPlayerController.singltonAnim.AnimatorPlayer("Attack", true);
+            animatorFire.SetTrigger("isFire");
             soundManager.PlaySongByIndex(0);
             bulletCounter.AttackBullet();
 

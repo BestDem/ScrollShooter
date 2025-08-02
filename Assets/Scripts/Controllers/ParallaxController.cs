@@ -1,20 +1,33 @@
 using UnityEngine;
 
-public class ParallaxController : MonoBehaviour
-{
-    [SerializeField] private Transform[] layers;
-    [SerializeField] private float[] coeff;
-    private int layersCount;
+public class ParallaxController : MonoBehaviour     //не используется 
+{ 
+    [SerializeField] private GameObject[] layers;
+    private Vector3 lastCameraPosition;
+    [SerializeField] public float[] coeff;
+    private float layersCount;
 
     private void Start()
     {
         layersCount = layers.Length;
+        lastCameraPosition = Camera.main.transform.position;
     }
 
-    private void Update()
+    private void LateUpdate()
     {
-        for (int i = 0; i < layersCount; i++)
-            layers[i].position = transform.position * coeff[i];
-    }
+        Vector3 deltaMovement = Camera.main.transform.position - lastCameraPosition;
 
+        for (int i = 0; i < layersCount; i++)
+        {
+
+            Vector3 movement = Vector3.zero;
+
+            movement.x = deltaMovement.x * coeff[i];
+            movement.y = deltaMovement.y * coeff[i];
+
+            layers[i].transform.position += movement;
+        }
+
+        lastCameraPosition = Camera.main.transform.position;
+    }
 }

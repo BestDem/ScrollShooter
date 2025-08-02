@@ -287,7 +287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2615625199336114154}
-  player: {fileID: 0}
 --- !u!114 &7735356357060808599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,18 +329,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6208506111659545752}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: PlaySongByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 987433177458150738}
         m_TargetAssemblyTypeName: SpawnCoinAfterDeath, Assembly-CSharp
         m_MethodName: SpawnCoin
@@ -366,6 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e2e31826a6af24baa90d8d64e97beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 6208506111659545752}
 --- !u!82 &6782132992155417114
 AudioSource:
   m_ObjectHideFlags: 0
@@ -489,7 +477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c6591b713e7e243b58f6b7d5b5bdc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 2476817729959627038, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
+  coin: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
+  cheackPoint: {fileID: 0}
 --- !u!1 &5389998905964443211
 GameObject:
   m_ObjectHideFlags: 0

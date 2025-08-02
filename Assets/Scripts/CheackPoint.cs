@@ -49,7 +49,7 @@ public class CheackPoint : MonoBehaviour
 
     public void AddCoinFromEnemy(GameObject coin)
     {
-        //cheackpointTrigger
+        cheackpointTrigger[activePoint].AddCoinInList(coin);
     }
 
     public void ResetPoints()

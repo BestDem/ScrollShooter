@@ -649,7 +649,7 @@ MonoBehaviour:
   EventDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2374333743626294807}
+      - m_Target: {fileID: 3042429374335689556, guid: 031e9cf3528fb384f89e2bf227d8c55e, type: 3}
         m_TargetAssemblyTypeName: DeathEnemy, Assembly-CSharp
         m_MethodName: DeathEnemyEvent
         m_Mode: 1
@@ -661,13 +661,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8787268029074111736}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: PlaySongByIndex
-        m_Mode: 3
+      - m_Target: {fileID: -4019109651856774183, guid: 031e9cf3528fb384f89e2bf227d8c55e, type: 3}
+        m_TargetAssemblyTypeName: SpawnCoinAfterDeath, Assembly-CSharp
+        m_MethodName: SpawnCoin
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 3997467253988148758, guid: 031e9cf3528fb384f89e2bf227d8c55e, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
@@ -685,6 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e2e31826a6af24baa90d8d64e97beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8787268029074111736}
 --- !u!114 &1721450599266656094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -838,6 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 2476817729959627038, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
+  cheackPoint: {fileID: 0}
 --- !u!114 &7089796486831532433
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -29,7 +29,6 @@ public class Health : MonoBehaviour
         currentHealth += Mathf.Abs(hp);
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         healthBar.GetDamageHealthBar(currentHealth, maxHealth);
-        Debug.Log(currentHealth + " востанавление");
     }
 
     public void GetDamage(float damage)

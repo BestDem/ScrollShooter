@@ -586,7 +586,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2207652989173335741}
-  player: {fileID: 0}
 --- !u!114 &2171400192708676642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,18 +627,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 9202862264992950605}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: PlaySongByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: -4019109651856774183}
         m_TargetAssemblyTypeName: SpawnCoinAfterDeath, Assembly-CSharp
         m_MethodName: SpawnCoin
@@ -664,6 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e2e31826a6af24baa90d8d64e97beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 9202862264992950605}
 --- !u!82 &3741032038833919170
 AudioSource:
   m_ObjectHideFlags: 0
@@ -674,8 +662,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 9e1d8a424a3f6ee429e5993d90d8c2f8, type: 2}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 53c8419765eac864fa19cc1feb5c684f, type: 3}
+  m_Resource: {fileID: 8300000, guid: 53c8419765eac864fa19cc1feb5c684f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -787,7 +775,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c6591b713e7e243b58f6b7d5b5bdc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 2476817729959627038, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
+  coin: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
+  cheackPoint: {fileID: 0}
 --- !u!1 &8168261121800813283
 GameObject:
   m_ObjectHideFlags: 0

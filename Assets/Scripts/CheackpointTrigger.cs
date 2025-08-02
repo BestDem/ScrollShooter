@@ -15,6 +15,11 @@ public class CheackpointTrigger : MonoBehaviour
         }
     }
 
+    public void AddCoinInList(GameObject coin)
+    {
+        coinsNextCheckPoints.Add(coin);
+    }
+
     public void ActiveCoins()
     {
         {

@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class SpawnCoinAfterDeath : MonoBehaviour
 {
-    [SerializeField] private CoinsTrigger coin;
+    [SerializeField] private GameObject coin;
     [SerializeField] private CheackPoint cheackPoint;
+    private GameObject bullet;
 
     public void SpawnCoin(Transform transformDeathEnemy)
     {
-        CoinsTrigger bullett = Instantiate(coin, transformDeathEnemy.position, Quaternion.identity);
-        //cheackPoint.AddCoinFromEnemy(bullett);
+        bullet = Instantiate(coin, transformDeathEnemy.position, transformDeathEnemy.rotation);
+
+        cheackPoint.AddCoinFromEnemy(bullet);
     }
 }

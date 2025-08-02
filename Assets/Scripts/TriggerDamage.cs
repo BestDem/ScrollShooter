@@ -8,13 +8,15 @@ public class TriggerDamage : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.TryGetComponent<Health>(out var health) && isDamage)
+        if (collider.gameObject.TryGetComponent<Health>(out var health) && isDamage && collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             isDamage = false;
             AnimationPlayerController.singltonAnim.AnimatorPlayer("isDamage", true);
             health.GetDamage(damage);
             StartCoroutine(WaiteSec());
         }
+        else
+            return;
     }
 
     IEnumerator WaiteSec()

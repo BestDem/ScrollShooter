@@ -3,7 +3,7 @@ using UnityEngine;
 public class ShieldActivation : MonoBehaviour
 {
     [SerializeField] private GameObject shield;
-    private bool canShoot = true;    //в начале нужно false!!!!!!!!
+    private bool canShoot = false;    //в начале нужно false!!!!!!!!
     public bool CanShoot => canShoot;
 
     private void Update()

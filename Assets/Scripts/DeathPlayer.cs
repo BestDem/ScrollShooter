@@ -10,7 +10,7 @@ public class DeathPlayer : MonoBehaviour
 
     public void DeathPlayerEvent()
     {
-        AnimationPlayerController.singltonAnim.AnimatorPlayer("Death", true);
+        AnimationPlayerController.singletonAnim.AnimatorPlayer("Death", true);
         StartCoroutine(DeathWhait());
 
         DeathMenu.SetActive(true);

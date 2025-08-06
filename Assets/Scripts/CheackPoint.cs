@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheackPoint : MonoBehaviour
+public class Cheackpoint : MonoBehaviour
 {
     [SerializeField] private List<GameObject> checkPoints;
     [SerializeField] private CoinController coinController;

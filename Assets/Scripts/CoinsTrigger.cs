@@ -7,7 +7,7 @@ public class CoinsTrigger : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            CoinController.singltonCoin.Coin(1);
+            CoinController.singletonCoin.Coin(1);
             gameObject.SetActive(false);
         }
     }

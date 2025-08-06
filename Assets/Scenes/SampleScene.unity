@@ -1562,11 +1562,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 238276390}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &238276392 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 238276390}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &238998933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2017,9 +2012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints: []
+  coinsNextCheckpoints: []
   number: 9
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1001 &310668584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2329,11 +2324,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 329538949}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &329538951 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 329538949}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &334612213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2636,11 +2626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 1734099406}
-  - {fileID: 439242786}
+  coinsNextCheckpoints: []
   number: 7
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1001 &384472115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2793,11 +2781,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 385733312}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &385733314 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 385733312}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &421186020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,11 +2874,6 @@ PrefabInstance:
 --- !u!4 &439242785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 439242784}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &439242786 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 439242784}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &450989402
@@ -3219,11 +3197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 757912176}
-  - {fileID: 1011538395}
+  coinsNextCheckpoints: []
   number: 2
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,7 +3569,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 3651945142464977473}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
         m_MethodName: RestartTimer
         m_Mode: 1
@@ -3899,11 +3875,6 @@ PrefabInstance:
 --- !u!4 &580346077 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 580346076}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &580346078 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 580346076}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &583521533 stripped
@@ -4254,7 +4225,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3651945142464977473}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
         m_MethodName: GetTimeSpent
         m_Mode: 1
@@ -4838,11 +4809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 2079150919}
-  - {fileID: 2117746545}
+  coinsNextCheckpoints: []
   number: 5
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!4 &681568477
 Transform:
   m_ObjectHideFlags: 0
@@ -4949,11 +4918,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 385733314}
-  - {fileID: 238276392}
+  coinsNextCheckpoints: []
   number: 6
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1 &744110145
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,11 +5068,6 @@ PrefabInstance:
 --- !u!4 &757912175 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 757912174}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &757912176 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 757912174}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &773619672
@@ -6624,11 +6586,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 1011538393}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1011538395 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 1011538393}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1027752504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6874,10 +6831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 329538951}
+  coinsNextCheckpoints: []
   number: 3
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1 &1104768169
 GameObject:
   m_ObjectHideFlags: 0
@@ -7520,11 +7476,6 @@ PrefabInstance:
 --- !u!4 &1215949852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 1215949851}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1215949853 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 1215949851}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1226821091
@@ -8742,11 +8693,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8034294406282987827, guid: 4b1baff5190c77045a0a7edb629b5cfb, type: 3}
   m_PrefabInstance: {fileID: 1441537244}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1441553492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 4063951046210359439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1441553495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
@@ -8828,11 +8774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 1441553492}
-  - {fileID: 580346078}
+  coinsNextCheckpoints: []
   number: 0
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!4 &1449379293
 Transform:
   m_ObjectHideFlags: 0
@@ -10029,10 +9973,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 1807215075}
+  coinsNextCheckpoints: []
   number: 4
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!1 &1581705319
 GameObject:
   m_ObjectHideFlags: 0
@@ -10616,11 +10559,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 1734099404}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1734099406 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 1734099404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1764128208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10859,11 +10797,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 1807215073}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1807215075 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 1807215073}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1810622055
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,9 +10967,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints: []
+  coinsNextCheckpoints: []
   number: 8
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!4 &1898478730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3997467253988148758, guid: 031e9cf3528fb384f89e2bf227d8c55e, type: 3}
@@ -12169,11 +12102,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 2079150917}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2079150919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 2079150917}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2085281181
 GameObject:
   m_ObjectHideFlags: 0
@@ -12250,10 +12178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbcd1a11ffbdc34389d55aa72e92f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsNextCheckPoints:
-  - {fileID: 1215949853}
+  coinsNextCheckpoints: []
   number: 1
-  cheackPoint: {fileID: 888844664}
+  cheackpoint: {fileID: 0}
 --- !u!4 &2085281184
 Transform:
   m_ObjectHideFlags: 0
@@ -12533,11 +12460,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 647442043740037859, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
   m_PrefabInstance: {fileID: 2117746543}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2117746545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4160611824112083296, guid: 850fd91635e9fa946968c1f48b056799, type: 3}
-  m_PrefabInstance: {fileID: 2117746543}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &27448376182089297
 GameObject:
   m_ObjectHideFlags: 0
@@ -12737,9 +12659,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E! \u0412\u044B
-    \u0443\u0431\u0438\u043B\u0438 \u0431\u043E\u0441\u0441\u0430)\n\u0412\u044B
-    \u043F\u0440\u043E\u0432\u0435\u043B\u0438 \u0432 \u0438\u0433\u0440\u0435:         
-    \u043C\u0438\u043D\u0443\u0442"
+    \u0443\u0431\u0438\u043B\u0438 \u0431\u043E\u0441\u0441\u0430)"
 --- !u!114 &297051766567185780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13747,7 +13667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.437, y: 34.9}
+  m_AnchoredPosition: {x: 1.437, y: 54.1}
   m_SizeDelta: {x: 438.951, y: 133.622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1370586320959541332
@@ -14282,7 +14202,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5628901781224518735}
-  - component: {fileID: 3651945142464977473}
   m_Layer: 5
   m_Name: DeathBoss
   m_TagString: Untagged
@@ -15360,25 +15279,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!224 &2831250286549249018
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3428946167339123457}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5628901781224518735}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121.6, y: -11.8}
-  m_SizeDelta: {x: 112.545, y: 47.258}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2866481707041551281
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16137,24 +16037,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &3428946167339123457
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2831250286549249018}
-  - component: {fileID: 8159479904953817130}
-  - component: {fileID: 3801017597693985650}
-  m_Layer: 5
-  m_Name: Timer (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!483693784 &3431538458114554455
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -21141,19 +21023,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3651945142464977473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684818580817151418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2a1a1be74034844cb5270fd84d1df1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textTimer: {fileID: 3801017597693985650}
 --- !u!223 &3667498541475074204
 Canvas:
   m_ObjectHideFlags: 0
@@ -21330,42 +21199,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3801017597693985650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3428946167339123457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 6
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '0
-
-'
 --- !u!222 &3875432766805381751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23164,7 +22997,6 @@ RectTransform:
   - {fileID: 3563257516314368529}
   - {fileID: 1768094027413229891}
   - {fileID: 1355597901571972689}
-  - {fileID: 2831250286549249018}
   m_Father: {fileID: 8107919258508348980}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -54488,14 +54320,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!222 &8159479904953817130
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3428946167339123457}
-  m_CullTransparentMesh: 1
 --- !u!1 &8165572647384502466
 GameObject:
   m_ObjectHideFlags: 0
@@ -54664,7 +54488,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3651945142464977473}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
         m_MethodName: RestartTimer
         m_Mode: 1

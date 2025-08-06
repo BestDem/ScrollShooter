@@ -13,7 +13,7 @@ public class Damage : MonoBehaviour
         if (collider.gameObject.TryGetComponent<Health>(out var health))
         {
             health.GetDamage(damage);
-            AnimationPlayerController.singltonAnim.AnimatorPlayer("isDamage", true);
+            AnimationPlayerController.singletonAnim.AnimatorPlayer("isDamage", true);
         }
         Destroy(gameObject);
     }

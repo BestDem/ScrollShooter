@@ -11,7 +11,7 @@ public class TriggerDamage : MonoBehaviour
         if (collider.gameObject.TryGetComponent<Health>(out var health) && isDamage && collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             isDamage = false;
-            AnimationPlayerController.singltonAnim.AnimatorPlayer("isDamage", true);
+            AnimationPlayerController.singletonAnim.AnimatorPlayer("isDamage", true);
             health.GetDamage(damage);
             StartCoroutine(WaiteSec());
         }

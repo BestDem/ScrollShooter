@@ -34,12 +34,12 @@ public class MovementController : MonoBehaviour
 
         if (direction != 0)
         {
-            AnimationPlayerController.singltonAnim.AnimatorPlayer("isRunning", true);
+            AnimationPlayerController.singletonAnim.AnimatorPlayer("isRunning", true);
             lastDirection = direction; // Запоминаем последнее направление
         }
         else
         {
-            AnimationPlayerController.singltonAnim.AnimatorPlayer("isRunning", false);
+            AnimationPlayerController.singletonAnim.AnimatorPlayer("isRunning", false);
         }
 
         FlipSprite(direction); // Всегда вызываем флип
@@ -47,8 +47,8 @@ public class MovementController : MonoBehaviour
 
     public void SetAnimationAfterDeath()
     {
-        AnimationPlayerController.singltonAnim.AnimatorPlayer("Death", false);
-        AnimationPlayerController.singltonAnim.AnimatorPlayer("isRunning", false);
+        AnimationPlayerController.singletonAnim.AnimatorPlayer("Death", false);
+        AnimationPlayerController.singletonAnim.AnimatorPlayer("isRunning", false);
         gameObject.layer = LayerMask.NameToLayer("Player");
     }
 }

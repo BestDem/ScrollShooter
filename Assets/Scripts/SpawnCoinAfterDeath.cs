@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnCoinAfterDeath : MonoBehaviour
 {
     [SerializeField] private GameObject coin;
-    [SerializeField] private CheackPoint cheackPoint;
+    [SerializeField] private Cheackpoint cheackPoint;
     private GameObject bullet;
 
     public void SpawnCoin(Transform transformDeathEnemy)

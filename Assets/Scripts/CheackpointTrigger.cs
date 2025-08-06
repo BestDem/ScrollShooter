@@ -3,39 +3,35 @@ using UnityEngine;
 
 public class CheackpointTrigger : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> coinsNextCheckPoints;
+    [SerializeField] private List<GameObject> coinsNextCheckpoints;
     [SerializeField] private int number;
-    [SerializeField] private CheackPoint cheackPoint;
+    [SerializeField] private Cheackpoint cheackpoint;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            cheackPoint.ActivateNextCheckPoint(number);
+            cheackpoint.ActivateNextCheckPoint(number);
         }
     }
 
     public void AddCoinInList(GameObject coin)
     {
-        coinsNextCheckPoints.Add(coin);
+        coinsNextCheckpoints.Add(coin);
     }
 
     public void ActiveCoins()
     {
+        foreach (GameObject coin in coinsNextCheckpoints)
         {
-            foreach (GameObject coin in coinsNextCheckPoints)
-            {
-                coin.SetActive(true);
-            }
+            coin.SetActive(true);
         }
     }
     public void DestroyCoins()
     {
+        foreach (GameObject coin in coinsNextCheckpoints)
         {
-            foreach (GameObject coin in coinsNextCheckPoints)
-            {
-                Destroy(coin);
-            }
+            Destroy(coin);
         }
     }
 }

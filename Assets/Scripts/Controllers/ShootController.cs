@@ -19,7 +19,7 @@ public class ShootController : MonoBehaviour
     {
         if (shield.CanShoot && bulletCounter.CanShootPlayer)
         {
-            AnimationPlayerController.singltonAnim.AnimatorPlayer("Attack", true);
+            AnimationPlayerController.singletonAnim.AnimatorPlayer("Attack", true);
             animatorFire.SetTrigger("isFire");
             soundManager.PlaySongByIndex(0);
             bulletCounter.AttackBullet();
@@ -33,7 +33,7 @@ public class ShootController : MonoBehaviour
             bullett.Initialize(direction);
 
             // Рисуем луч для отладки
-            Debug.DrawLine(firePoint.position, firePoint.position + (Vector3)direction * settings.BeamRange, Color.red);
+            //Debug.DrawLine(firePoint.position, firePoint.position + (Vector3)direction * settings.BeamRange, Color.red);
         }
         else if (bulletCounter.CurrentBullet == 0)
             soundManager.PlaySongByIndex(5);

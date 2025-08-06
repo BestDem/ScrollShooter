@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class AnimationPlayerController : MonoBehaviour
 {
-    public static AnimationPlayerController singltonAnim { get; private set; }
+    public static AnimationPlayerController singletonAnim { get; private set; }
     private Animator animator;
 
     private void Awake()
     {
-        singltonAnim = this;
+        if (singletonAnim == null)
+            singletonAnim = this;
+        else
+            Destroy(gameObject);
     }
 
     private void Start()

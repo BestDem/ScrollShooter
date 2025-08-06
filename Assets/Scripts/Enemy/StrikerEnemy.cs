@@ -1,14 +1,14 @@
 using NUnit.Framework;
 using UnityEngine;
 
-public class StrickerEnemy : MonoBehaviour
+public class StrikerEnemy : MonoBehaviour
 {
     [SerializeField] private AnimationController animationController;
     [SerializeField] private UseControllerSettings settings;
     [SerializeField] private ShootingEnenmy shootingEnenmy;
 
 
-    public void GetAgryEnemy(Transform player)
+    public void GetAggroEnemy(Transform player)
     {
         animationController.AnimatorEnemy("isMoving", true);
         Vector2 vector = (player.position - transform.position).normalized;

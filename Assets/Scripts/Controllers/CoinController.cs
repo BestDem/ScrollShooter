@@ -3,14 +3,17 @@ using UnityEngine.UI;
 
 public class CoinController : MonoBehaviour
 {
-    public static CoinController singltonCoin { get; private set; }
+    public static CoinController singletonCoin { get; private set; }
     [SerializeField] private SoundManager soundManager;
     [SerializeField] private Text text;
     private float coinCheckpoint = 0;
 
     private void Awake()
     {
-        singltonCoin = this;
+        if (singletonCoin == null)
+            singletonCoin = this;
+        else
+            Destroy(gameObject);
     }
     private void Start()
     {

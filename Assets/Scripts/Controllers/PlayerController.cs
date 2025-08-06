@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController singltonPlayer { get; private set; }
+    public static PlayerController singletonPlayer { get; private set; }
     [SerializeField] private JumpController jumpController;
     [SerializeField] private MovementController movementController;
     [SerializeField] private Transform groundColliderTransform;
@@ -19,7 +19,10 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        singltonPlayer = this;
+        if (singletonPlayer == null)
+            singletonPlayer = this;
+        else
+            Destroy(gameObject);
     }
     public void Movement(float direction, bool isJump, bool canShoot)
     {
@@ -42,7 +45,7 @@ public class PlayerController : MonoBehaviour
 
             if (isJump & isGrounded)
             {
-                AnimationPlayerController.singltonAnim.AnimatorPlayer("isJump", true);
+                AnimationPlayerController.singletonAnim.AnimatorPlayer("isJump", true);
                 jumpController.Jump();
             }
 
